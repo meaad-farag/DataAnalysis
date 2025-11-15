@@ -1,0 +1,5 @@
+Rows joined: 39
+Chosen method: method1
+Correlation_method1_r = -0.175 ; p = 0.28692
+Correlation_method_sum_r = -0.114 ; p = 0.49131
+Recommendation (automated): If correlations are weak/non-significant, prioritize very_active_minutes & user segmentation for marketing messages.

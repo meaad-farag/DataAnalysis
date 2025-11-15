@@ -1,0 +1,32 @@
+Linear mixed model fit by maximum likelihood . t-tests
+  use Satterthwaite's method [lmerModLmerTest]
+Formula: total_steps ~ is_weekend + (1 | id)
+   Data: daily
+
+      AIC       BIC    logLik -2*log(L)  df.resid 
+   7163.3    7178.9   -3577.6    7155.3       366 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-4.1423 -0.5481 -0.0515  0.4794  4.0313 
+
+Random effects:
+ Groups   Name        Variance Std.Dev.
+ id       (Intercept) 11904348 3450    
+ Residual             11773139 3431    
+Number of obs: 370, groups:  id, 34
+
+Fixed effects:
+                  Estimate Std. Error      df t value
+(Intercept)        7886.34     631.83   35.87  12.482
+is_weekendweekend  -167.02     443.73  338.67  -0.376
+                  Pr(>|t|)    
+(Intercept)       1.29e-14 ***
+is_weekendweekend    0.707    
+---
+Signif. codes:  
+0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Correlation of Fixed Effects:
+            (Intr)
+is_wkndwknd -0.138
